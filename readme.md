@@ -17,11 +17,15 @@
 
 ## About Me
 
+<img src="assets/section-about.svg" width="100%" alt="Japanese neon city at night, introducing the About Me section" />
+
 Hey, I'm Red - a **Bachelor of Science in Information Technology** student at **Davao del Sur State College**. I like learning how software works by making things: small web projects, apps, and systems that solve practical problems.
 
 I'm working toward becoming a full-stack developer. Right now, I'm building my foundations in programming, web development, and databases, and getting better with every project.
 
 ## Tech Stack
+
+<img src="assets/section-tech-stack.svg" width="100%" alt="Retro computer terminal and code, introducing the Tech Stack section" />
 
 I keep my toolkit focused and keep learning as I build.
 
@@ -42,6 +46,8 @@ I keep my toolkit focused and keep learning as I build.
 
 ## Featured Projects
 
+<img src="assets/section-projects.svg" width="100%" alt="Neon developer workstation, introducing Featured Projects" />
+
 | &nbsp; | &nbsp; |
 |:---|:---|
 | **🦖 [Dinasure](https://github.com/red-angelo-panugaling/dinasure)**<br>An offline dinosaur runner project. | **🤖 [AI Chatbot](https://github.com/red-angelo-panugaling/aichatbot)**<br>A chatbot project from my repository collection. |
@@ -49,6 +55,8 @@ I keep my toolkit focused and keep learning as I build.
 | **📓 [ML Project Compilation](https://github.com/red-angelo-panugaling/ml-project-compiltion)**<br>Machine-learning notebooks and projects. | **[Browse all repositories →](https://github.com/red-angelo-panugaling?tab=repositories)**<br>Explore the rest of my work on GitHub. |
 
 ## GitHub Activity
+
+<img src="assets/section-activity.svg" width="100%" alt="Neon activity terminal with an abstract contribution grid, introducing GitHub Activity" />
 
 <div align="center">
 
@@ -75,6 +83,8 @@ I keep my toolkit focused and keep learning as I build.
 - Practical software and system development
 
 ## Connect
+
+<img src="assets/section-connect.svg" width="100%" alt="Neon Japanese city at night with communication signals, introducing Connect With Me" />
 
 <div align="center">
 
