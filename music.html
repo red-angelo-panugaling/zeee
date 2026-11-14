@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Listen to Bahala Na by Kenaniah in a clean, custom music player.">
+  <title>Bahala Na — Kenaniah | Music Player</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23101010'/%3E%3Cpath d='M39 13v27a9 9 0 1 1-5-8V20l18-4v19a9 9 0 1 1-5-8V11z' fill='%23fff'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #101010;
+      color: #f5f5f5;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      --muted: #929292;
+      --line: #303030;
+      --panel: #181818;
+      --white: #f5f5f5;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 32px 18px;
+      background: radial-gradient(ellipse at 50% 0%, #252525 0, #151515 38%, #101010 76%);
+    }
+
+    .player {
+      width: min(100%, 430px);
+      padding: 20px;
+      border: 1px solid #303030;
+      border-radius: 24px;
+      background: rgba(24, 24, 24, .94);
+      box-shadow: 0 28px 90px #0009;
+      animation: enter .65s cubic-bezier(.2,.8,.2,1) both;
+    }
+
+    .topline { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+    .brand { display: flex; align-items: center; gap: 9px; color: #c8c8c8; font-size: .78rem; font-weight: 650; letter-spacing: .12em; text-transform: uppercase; }
+    .brand-mark { display: grid; width: 28px; height: 28px; place-items: center; border: 1px solid #454545; border-radius: 9px; color: white; }
+    .status { display: inline-flex; align-items: center; gap: 7px; color: var(--muted); font-size: .72rem; }
+    .status::before { width: 6px; height: 6px; border-radius: 50%; background: #777; content: ""; }
+    .is-playing .status::before { background: #eee; box-shadow: 0 0 10px #fff8; }
+
+    .cover {
+      position: relative;
+      display: grid;
+      min-height: 290px;
+      overflow: hidden;
+      place-items: center;
+      border: 1px solid #373737;
+      border-radius: 17px;
+      background: linear-gradient(145deg, #333 0%, #1b1b1b 48%, #111 100%);
+      isolation: isolate;
+    }
+    .cover::before, .cover::after { position: absolute; z-index: -1; border: 1px solid #ffffff0d; border-radius: 50%; content: ""; }
+    .cover::before { width: 290px; height: 290px; }
+    .cover::after { width: 220px; height: 220px; }
+    .cover-art { display: grid; width: 132px; height: 132px; place-items: center; border: 1px solid #ffffff2b; border-radius: 50%; background: radial-gradient(circle at 38% 32%, #555, #202020 58%, #111); box-shadow: 0 18px 50px #0009, inset 0 0 0 8px #ffffff08; }
+    .cover-art svg { width: 43px; height: 43px; color: #f4f4f4; }
+    .cover-caption { position: absolute; right: 17px; bottom: 16px; left: 17px; display: flex; align-items: end; justify-content: space-between; color: #aaa; font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; }
+
+    .track { padding: 22px 2px 16px; }
+    .track h1 { margin: 0; font-size: clamp(1.45rem, 7vw, 1.8rem); font-weight: 680; letter-spacing: -.045em; }
+    .track p { margin: 6px 0 0; color: var(--muted); font-size: .94rem; }
+
+    .visualizer { display: flex; height: 26px; align-items: center; justify-content: center; gap: 4px; margin: 0 0 12px; opacity: .34; }
+    .visualizer span { width: 3px; height: 5px; border-radius: 4px; background: #eee; transform-origin: center; }
+    .is-playing .visualizer { opacity: .9; }
+    .is-playing .visualizer span { animation: equalize .72s ease-in-out infinite alternate; }
+    .visualizer span:nth-child(3n) { animation-delay: -.48s; }
+    .visualizer span:nth-child(3n + 1) { animation-delay: -.2s; }
+    .visualizer span:nth-child(4n) { animation-duration: .9s; }
+
+    .timeline { display: grid; grid-template-columns: 38px 1fr 38px; align-items: center; gap: 10px; color: var(--muted); font-variant-numeric: tabular-nums; font-size: .72rem; }
+    input[type="range"] { width: 100%; height: 4px; margin: 0; border-radius: 99px; background: linear-gradient(to right, #f1f1f1 var(--fill, 0%), #454545 var(--fill, 0%)); cursor: pointer; appearance: none; }
+    input[type="range"]::-webkit-slider-thumb { width: 12px; height: 12px; border: 0; border-radius: 50%; background: white; box-shadow: 0 0 0 4px #ffffff18; appearance: none; }
+    input[type="range"]::-moz-range-thumb { width: 12px; height: 12px; border: 0; border-radius: 50%; background: white; box-shadow: 0 0 0 4px #ffffff18; }
+
+    .controls { display: flex; align-items: center; justify-content: center; gap: 24px; padding: 21px 0; }
+    button { display: inline-grid; flex: 0 0 auto; width: 42px; height: 42px; place-items: center; padding: 0; border: 0; border-radius: 50%; background: transparent; color: #c7c7c7; cursor: pointer; transition: color .18s ease, background .18s ease, transform .18s ease; }
+    button:hover { background: #ffffff0d; color: white; }
+    button:active { transform: scale(.94); }
+    button:focus-visible, input:focus-visible { outline: 2px solid #eee; outline-offset: 4px; }
+    button svg { width: 19px; height: 19px; }
+    .play-button { width: 58px; height: 58px; background: #f2f2f2; color: #111; }
+    .play-button:hover { background: white; color: #000; transform: scale(1.04); }
+    .play-button svg { width: 22px; height: 22px; }
+
+    .volume-row { display: flex; align-items: center; gap: 12px; padding: 13px 0 2px; border-top: 1px solid var(--line); }
+    .volume-row button { width: 34px; height: 34px; }
+    .volume-row button svg { width: 18px; height: 18px; }
+    .volume-label { min-width: 44px; color: var(--muted); font-size: .72rem; }
+    .volume-row input { max-width: 150px; }
+    .error { display: none; margin: 14px 2px 0; color: #e4b6b6; font-size: .8rem; line-height: 1.5; }
+    .error.visible { display: block; }
+    .footer { margin-top: 19px; color: #666; font-size: .68rem; text-align: center; }
+
+    /* The video remains available to the media engine but never appears visually. */
+    .audio-source { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); clip-path: inset(50%); white-space: nowrap; }
+
+    @keyframes equalize { from { transform: scaleY(.35); } to { transform: scaleY(2.7); } }
+    @keyframes enter { from { opacity: 0; transform: translateY(14px) scale(.985); } to { opacity: 1; transform: translateY(0) scale(1); } }
+    @media (max-width: 480px) {
+      body { padding: 16px 12px; }
+      .player { padding: 15px; border-radius: 20px; }
+      .cover { min-height: min(68vw, 290px); }
+      .cover-art { width: 116px; height: 116px; }
+      .controls { gap: 18px; padding: 18px 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="player" id="player" aria-label="Music player">
+    <div class="topline">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">♪</span> Now playing</div>
+      <span class="status" id="status" aria-live="polite">Ready</span>
+    </div>
+
+    <div class="cover" aria-hidden="true">
+      <div class="cover-art">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 18V5l11-2v13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="16" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+      </div>
+      <div class="cover-caption"><span>Mono / 01</span><span>Audio</span></div>
+    </div>
+
+    <section class="track" aria-label="Track information">
+      <h1>Bahala Na</h1>
+      <p>Kenaniah</p>
+    </section>
+
+    <div class="visualizer" id="visualizer" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="timeline">
+      <span id="currentTime">0:00</span>
+      <input id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek through track" style="--fill: 0%">
+      <span id="duration">0:00</span>
+    </div>
+
+    <div class="controls">
+      <button id="restartButton" type="button" aria-label="Restart track" title="Restart">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 11a8 8 0 1 1 2.34 5.66M4 4v7h7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8v4l2.5 1.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="play-button" id="playButton" type="button" aria-label="Play" title="Play">
+        <svg id="playIcon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.8c0-.78.85-1.26 1.52-.86l9.13 5.45a1.87 1.87 0 0 1 0 3.22l-9.13 5.45A1 1 0 0 1 8 18.2V5.8Z"/></svg>
+        <svg id="pauseIcon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" hidden><path d="M7 5.5A1.5 1.5 0 0 1 8.5 4h1A1.5 1.5 0 0 1 11 5.5v13A1.5 1.5 0 0 1 9.5 20h-1A1.5 1.5 0 0 1 7 18.5v-13Zm6 0A1.5 1.5 0 0 1 14.5 4h1A1.5 1.5 0 0 1 17 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-13Z"/></svg>
+      </button>
+    </div>
+
+    <div class="volume-row">
+      <button id="volumeButton" type="button" aria-label="Mute" title="Mute">
+        <svg id="volumeIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <svg id="mutedIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true" hidden><path d="M11 5 6 9H3v6h3l5 4V5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m16 9 5 6m0-6-5 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+      <span class="volume-label" id="volumeLabel">Volume</span>
+      <input id="volume" type="range" min="0" max="1" value="0.8" step="0.01" aria-label="Volume" style="--fill: 80%">
+    </div>
+    <p class="error" id="errorMessage" role="alert">The audio file could not be loaded. Check that the MP4 is committed at <code>backgroundmusic/Kenaniah - Bahala Na (Lyrics).mp4</code>.</p>
+    <div class="footer">A quiet place to listen.</div>
+
+    <video class="audio-source" id="media" preload="metadata" playsinline aria-hidden="true" tabindex="-1">
+      <source src="backgroundmusic/Kenaniah - Bahala Na (Lyrics).mp4" type="video/mp4">
+    </video>
+  </main>
+
+  <script>
+    (() => {
+      const media = document.getElementById('media');
+      const player = document.getElementById('player');
+      const playButton = document.getElementById('playButton');
+      const playIcon = document.getElementById('playIcon');
+      const pauseIcon = document.getElementById('pauseIcon');
+      const seek = document.getElementById('seek');
+      const volume = document.getElementById('volume');
+      const currentTime = document.getElementById('currentTime');
+      const duration = document.getElementById('duration');
+      const status = document.getElementById('status');
+      const errorMessage = document.getElementById('errorMessage');
+      const volumeButton = document.getElementById('volumeButton');
+      const volumeIcon = document.getElementById('volumeIcon');
+      const mutedIcon = document.getElementById('mutedIcon');
+      const volumeLabel = document.getElementById('volumeLabel');
+
+      media.volume = Number(volume.value);
+
+      const formatTime = (seconds) => {
+        if (!Number.isFinite(seconds) || seconds < 0) return '0:00';
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60).toString().padStart(2, '0');
+        return `${mins}:${secs}`;
+      };
+
+      const updateProgress = () => {
+        const total = media.duration;
+        const progress = Number.isFinite(total) && total > 0 ? media.currentTime / total : 0;
+        seek.value = String(Math.round(progress * 1000));
+        seek.style.setProperty('--fill', `${progress * 100}%`);
+        currentTime.textContent = formatTime(media.currentTime);
+        duration.textContent = formatTime(total);
+      };
+
+      const updatePlayState = () => {
+        const playing = !media.paused && !media.ended;
+        player.classList.toggle('is-playing', playing);
+        playIcon.hidden = playing;
+        pauseIcon.hidden = !playing;
+        playButton.setAttribute('aria-label', playing ? 'Pause' : 'Play');
+        playButton.title = playing ? 'Pause' : 'Play';
+        status.textContent = playing ? 'Playing' : (media.ended ? 'Finished' : 'Ready');
+      };
+
+      const updateVolume = () => {
+        const muted = media.muted || media.volume === 0;
+        volumeIcon.hidden = muted;
+        mutedIcon.hidden = !muted;
+        const label = muted ? 'Unmute' : 'Mute';
+        volumeButton.setAttribute('aria-label', label);
+        volumeButton.title = label;
+        volumeLabel.textContent = `${Math.round(media.volume * 100)}%`;
+        volume.style.setProperty('--fill', `${media.volume * 100}%`);
+      };
+
+      const toggleMute = () => {
+        media.muted = !media.muted;
+        updateVolume();
+      };
+
+      playButton.addEventListener('click', async () => {
+        if (media.paused) {
+          try {
+            await media.play();
+            errorMessage.classList.remove('visible');
+          } catch (error) {
+            status.textContent = 'Unavailable';
+            errorMessage.classList.add('visible');
+          }
+        } else {
+          media.pause();
+        }
+      });
+
+      document.getElementById('restartButton').addEventListener('click', () => {
+        media.currentTime = 0;
+        media.play().catch(() => errorMessage.classList.add('visible'));
+      });
+
+      seek.addEventListener('input', () => {
+        if (Number.isFinite(media.duration)) {
+          media.currentTime = (Number(seek.value) / 1000) * media.duration;
+          updateProgress();
+        }
+      });
+
+      volume.addEventListener('input', () => {
+        media.volume = Number(volume.value);
+        media.muted = media.volume === 0;
+        updateVolume();
+      });
+      volumeButton.addEventListener('click', toggleMute);
+
+      media.addEventListener('loadedmetadata', updateProgress);
+      media.addEventListener('durationchange', updateProgress);
+      media.addEventListener('timeupdate', updateProgress);
+      media.addEventListener('play', updatePlayState);
+      media.addEventListener('pause', updatePlayState);
+      media.addEventListener('ended', updatePlayState);
+      media.addEventListener('error', () => errorMessage.classList.add('visible'));
+
+      updatePlayState();
+      updateVolume();
+      updateProgress();
+    })();
+  </script>
+</body>
+</html>

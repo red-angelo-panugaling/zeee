@@ -56,34 +56,34 @@ My current focus is strengthening my development fundamentals, exploring web tec
 
 ## Featured Projects
 
-Repository cards load each project's current name, description, and language from GitHub. Select a card to open its repository.
+| Project | Description |
+| --- | --- |
+| [Dinasure](https://github.com/red-angelo-panugaling/dinasure) | Offline dinosaur runner game. |
+| [AI Chatbot](https://github.com/red-angelo-panugaling/aichatbot) | AI-assisted chatbot application. |
+| [Motorcycle Display System](https://github.com/red-angelo-panugaling/motorcycle_display_system) | Motorcycle display system project. |
+| [Machine Learning](https://github.com/red-angelo-panugaling/machine-learning) | Machine learning coursework and activities. |
 
-| | |
-|:---:|:---:|
-| [![dinasure](https://github-readme-stats.vercel.app/api/pin/?username=red-angelo-panugaling&repo=dinasure&hide_border=true&title_color=222222&text_color=555555&icon_color=333333&bg_color=ffffff)](https://github.com/red-angelo-panugaling/dinasure) | [![aichatbot](https://github-readme-stats.vercel.app/api/pin/?username=red-angelo-panugaling&repo=aichatbot&hide_border=true&title_color=222222&text_color=555555&icon_color=333333&bg_color=ffffff)](https://github.com/red-angelo-panugaling/aichatbot) |
-| [![motorcycle_display_system](https://github-readme-stats.vercel.app/api/pin/?username=red-angelo-panugaling&repo=motorcycle_display_system&hide_border=true&title_color=222222&text_color=555555&icon_color=333333&bg_color=ffffff)](https://github.com/red-angelo-panugaling/motorcycle_display_system) | [![machine-learning](https://github-readme-stats.vercel.app/api/pin/?username=red-angelo-panugaling&repo=machine-learning&hide_border=true&title_color=222222&text_color=555555&icon_color=333333&bg_color=ffffff)](https://github.com/red-angelo-panugaling/machine-learning) |
+[View all repositories](https://github.com/red-angelo-panugaling?tab=repositories)
 
-[Browse all repositories](https://github.com/red-angelo-panugaling?tab=repositories)
-
-## GitHub Statistics
+## Background Music
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=red-angelo-panugaling&show_icons=true&hide_border=true&rank_icon=github&bg_color=ffffff&title_color=222222&text_color=555555&icon_color=444444" alt="GitHub contribution statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=red-angelo-panugaling&layout=compact&hide_border=true&bg_color=ffffff&title_color=222222&text_color=555555" alt="Most-used programming languages" />
+<a href="https://red-angelo-panugaling.github.io/readme/music.html"><img src="https://img.shields.io/badge/%E2%96%B6%20Play%20Background%20Music-222222?style=for-the-badge&logoColor=white" alt="▶ Play Background Music" /></a>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=FFFFFF&ring=555555&fire=777777&currStreakLabel=333333&sideLabels=555555&currStreakNum=222222&sideNums=333333&dates=777777" alt="GitHub contribution streak" />
+Listen to **Bahala Na** by Kenaniah.
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=red-angelo-panugaling&bg_color=ffffff&color=444444&line=777777&point=222222&area=true&hide_border=true" alt="GitHub contribution activity graph" />
+[Listen to Bahala Na](backgroundmusic/Kenaniah%20-%20Bahala%20Na%20(Lyrics).mp4)
 
 </div>
 
-<details>
-<summary>About these statistics</summary>
+## GitHub Statistics
 
-These cards are generated from public GitHub activity and may take time to reflect recent updates.
+See my [GitHub contribution activity](https://github.com/red-angelo-panugaling) on my profile. My repositories show the languages used in each project.
 
-</details>
+<p>
+<a href="https://github.com/red-angelo-panugaling"><img src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=0D1117&ring=8B949E&fire=8B949E&currStreakLabel=C9D1D9&sideLabels=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D" alt="GitHub contribution streak" /></a>
+</p>
 
 ---
 
