@@ -15,13 +15,13 @@
 
 ---
 
-<h2 id="about-me"><img src="assets/banners/about-banner.svg" width="100%" alt="About Me — Japanese neon city banner" /></h2>
+<h2 id="about-me"><img src="assets/banners/about-banner.svg" width="100%" alt="About Me — Japanese neon city banner. A student building one project at a time." /></h2>
 
 Hey, I'm Red - a **Bachelor of Science in Information Technology** student at **Davao del Sur State College**. I like learning how software works by making things: small web projects, apps, and systems that solve practical problems.
 
 I'm working toward becoming a full-stack developer. Right now, I'm building my foundations in programming, web development, and databases, and getting better with every project.
 
-<h2 id="tech-stack"><img src="assets/banners/techstack-banner.svg" width="100%" alt="Tech Stack — retro computer workstation banner" /></h2>
+<h2 id="tech-stack"><img src="assets/banners/techstack-banner.svg" width="100%" alt="Tech Stack — retro computer workstation. Tools and technologies I use to build things." /></h2>
 
 I keep my toolkit focused and keep learning as I build.
 
@@ -40,7 +40,7 @@ I keep my toolkit focused and keep learning as I build.
 
 <br clear="right" />
 
-<h2 id="featured-projects"><img src="assets/banners/projects-banner.svg" width="100%" alt="Featured Projects — neon Japanese technology banner" /></h2>
+<h2 id="featured-projects"><img src="assets/banners/projects-banner.svg" width="100%" alt="Featured Projects — neon Japanese technology. Some things I've built and worked on." /></h2>
 
 | &nbsp; | &nbsp; |
 |:---|:---|
@@ -48,7 +48,7 @@ I keep my toolkit focused and keep learning as I build.
 | **🏍️ [Motorcycle Display System](https://github.com/red-angelo-panugaling/motorcycle_display_system)**<br>A motorcycle display system project. | **🧩 [Portfolio](https://github.com/red-angelo-panugaling/portfolio)**<br>My portfolio website repository. |
 | **📓 [ML Project Compilation](https://github.com/red-angelo-panugaling/ml-project-compiltion)**<br>Machine-learning notebooks and projects. | **[Browse all repositories →](https://github.com/red-angelo-panugaling?tab=repositories)**<br>Explore the rest of my work on GitHub. |
 
-<h2 id="github-activity"><img src="assets/banners/activity-banner.svg" width="100%" alt="GitHub Activity — futuristic neon terminal banner" /></h2>
+<h2 id="github-activity"><img src="assets/banners/activity-banner.svg" width="100%" alt="GitHub Activity — futuristic neon terminal. My coding journey, contributions and progress." /></h2>
 
 <div align="center">
 
@@ -68,13 +68,13 @@ I keep my toolkit focused and keep learning as I build.
 
 </div>
 
-<h2 id="currently-exploring"><img src="assets/banners/exploring-banner.svg" width="100%" alt="Currently Exploring — Japanese night scenery banner" /></h2>
+<h2 id="currently-exploring"><img src="assets/banners/exploring-banner.svg" width="100%" alt="Currently Exploring — Japanese night scenery. Always learning, always building." /></h2>
 
 - Full-stack web development
 - Database design and SQL
 - Practical software and system development
 
-<h2 id="connect"><img src="assets/banners/connect-banner.svg" width="100%" alt="Connect With Me — neon Japanese city banner" /></h2>
+<h2 id="connect"><img src="assets/banners/connect-banner.svg" width="100%" alt="Connect With Me — neon Japanese city. Let's connect and build something together." /></h2>
 
 <div align="center">
 
