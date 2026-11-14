@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="gif/profile-header.gif" width="100%" alt="Animated banner with Red Angelo Panugaling and his aspiring full-stack developer title aligned on the left" />
+<img src="assets/japanese-cyberpunk-banner.svg" width="100%" alt="Japanese-inspired neon night city banner introducing Red Angelo Panugaling, an IT student and aspiring full-stack developer" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=900&color=C8B6FF&center=true&vCenter=true&width=550&lines=Curious+by+nature%2C+builder+by+practice;Learning+web+development+one+project+at+a+time;Turning+ideas+into+working+software" alt="Curious by nature, builder by practice. Learning web development one project at a time." />
 
 **Red Angelo Panugaling** &nbsp;·&nbsp; Davao del Sur State College &nbsp;·&nbsp; Philippines
 
-[About](#about-me) &nbsp;·&nbsp; [Tech Stack](#tech-stack) &nbsp;·&nbsp; [Projects](#featured-projects) &nbsp;·&nbsp; [Stats](#github-activity) &nbsp;·&nbsp; [Music](#background-music) &nbsp;·&nbsp; [Connect](#connect)
+[About](#about-me) &nbsp;·&nbsp; [Tech Stack](#tech-stack) &nbsp;·&nbsp; [Projects](#featured-projects) &nbsp;·&nbsp; [Activity](#github-activity) &nbsp;·&nbsp; [Exploring](#currently-exploring) &nbsp;·&nbsp; [Connect](#connect)
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/red-angelo-panugaling)
 [![Facebook](https://img.shields.io/badge/Facebook-34304A?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/z.vlmr20)
@@ -52,35 +52,19 @@ I keep my toolkit focused and keep learning as I build.
 
 <div align="center">
 
-<table border="3" cellpadding="10" cellspacing="0" width="100%">
-  <tr>
-    <td align="left">
-      <strong>+-- PLAYER PROFILE ----------------------------------------------+</strong><br>
-      <code>USER: RED-ANGELO-PANUGALING &nbsp; / &nbsp; SYSTEM: GITHUB ACTIVITY</code>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=red-angelo-panugaling&theme=github_dark" alt="Live contribution activity and profile overview displayed on the arcade terminal" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>+-- LANGUAGE STATS ----------------+ &nbsp; +-- CONTRIBUTION RECORD ----------+</strong><br>
-      <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=red-angelo-panugaling&theme=github_dark" alt="Most-used programming languages across public repositories" />
-      <img width="48%" src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=0D1117&ring=9B8AFB&fire=E0A3FF&currStreakLabel=C8B6FF&sideLabels=9AA4B2&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D" alt="Live current and longest contribution streak" />
-    </td>
-  </tr>
-  <tr>
-    <td align="left">
-      <code>SYSTEM STATUS: LIVE &nbsp; / &nbsp; PUBLIC REPOSITORIES:</code>
-      <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fred-angelo-panugaling&query=%24.public_repos&label=&color=30363d&style=flat-square" alt="Current public repository count" />
-      &nbsp; <a href="https://github.com/red-angelo-panugaling?tab=repositories">[ OPEN REPOSITORY INDEX ]</a>
-    </td>
-  </tr>
-</table>
+<sub>CONTRIBUTIONS · PROFILE OVERVIEW</sub><br>
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=red-angelo-panugaling&theme=github_dark" alt="Live GitHub contribution graph, total contributions, and profile overview" />
 
-<sub>Live profile and contribution data | Updated by GitHub and the linked statistics services</sub>
+<br>
+
+<sub>LANGUAGES · CONTRIBUTION STREAK</sub><br>
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=red-angelo-panugaling&theme=github_dark" alt="Live breakdown of programming languages in public repositories" />
+<img width="48%" src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=0D1117&ring=C084FC&fire=F472B6&currStreakLabel=C4B5FD&sideLabels=A1A1AA&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF&stroke=3F3F46" alt="Live current and longest contribution streak" />
+
+<br><br>
+
+<sub>PUBLIC REPOSITORIES</sub><br>
+<a href="https://github.com/red-angelo-panugaling?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fred-angelo-panugaling&query=%24.public_repos&label=PUBLIC%20REPOSITORIES&color=6d4b8e&style=flat-square" alt="Current public repository count; click to browse repositories" /></a>
 
 </div>
 
@@ -89,16 +73,6 @@ I keep my toolkit focused and keep learning as I build.
 - Full-stack web development
 - Database design and SQL
 - Practical software and system development
-
-## Background Music
-
-<div align="center">
-
-**Bahala Na - Kenaniah**
-
-[▶ Play Background Music](https://github.com/red-angelo-panugaling/red-angelo-panugaling/blob/main/backgroundmusic/Kenaniah%20-%20Bahala%20Na%20(Lyrics).mp4) &nbsp;·&nbsp; [Listen to Bahala Na](backgroundmusic/Kenaniah%20-%20Bahala%20Na%20(Lyrics).mp4)
-
-</div>
 
 ## Connect
 
