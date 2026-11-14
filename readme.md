@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:18304A,100:50346E&height=220&section=header&text=RED%20ANGELO%20PANUGALING&fontSize=34&fontColor=FFFFFF&fontAlignY=38&desc=BSIT%20STUDENT%20%7C%20ASPIRING%20FULL-STACK%20DEVELOPER&descAlignY=60&descSize=14" width="100%" alt="Red Angelo Panugaling | BSIT Student and Aspiring Full-Stack Developer" />
+<img src="gif/profile-header.gif" width="100%" alt="Animated banner with Red Angelo Panugaling and his aspiring full-stack developer title aligned on the left" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=900&color=C8B6FF&center=true&vCenter=true&width=550&lines=Curious+by+nature%2C+builder+by+practice;Learning+web+development+one+project+at+a+time;Turning+ideas+into+working+software" alt="Curious by nature, builder by practice. Learning web development one project at a time." />
 
@@ -25,22 +25,20 @@ I'm working toward becoming a full-stack developer. Right now, I'm building my f
 
 I keep my toolkit focused and keep learning as I build.
 
-<table width="100%">
-  <tr>
-    <td width="62%" valign="middle">
-      <p><strong>Programming languages</strong><br>
-      <img src="https://skillicons.dev/icons?i=java,js,php&theme=dark" alt="Java, JavaScript, and PHP" /></p>
-      <p><strong>Frontend</strong><br>
-      <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML, CSS, and JavaScript" /></p>
-      <p><strong>Database and tools</strong><br>
-      <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode&theme=dark" alt="MySQL, Git, GitHub, and Visual Studio Code" /></p>
-      <code>SQL</code> &nbsp; <code>MySQL</code>
-    </td>
-    <td width="38%" align="center" valign="middle">
-      <img src="gif/tech%20stack%20empty%20side.gif" width="280" alt="Animated illustration of a developer working at a multi-monitor desk" />
-    </td>
-  </tr>
-</table>
+<img align="right" src="gif/tech%20stack%20empty%20side.gif" width="280" alt="Animated illustration of a developer working at a multi-monitor desk" />
+
+<p><strong>Programming languages</strong><br>
+<img src="https://skillicons.dev/icons?i=java,js,php&theme=dark" alt="Java, JavaScript, and PHP" /></p>
+
+<p><strong>Frontend</strong><br>
+<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML, CSS, and JavaScript" /></p>
+
+<p><strong>Database and tools</strong><br>
+<img src="https://skillicons.dev/icons?i=mysql,git,github,vscode&theme=dark" alt="MySQL, Git, GitHub, and Visual Studio Code" /></p>
+
+`SQL` &nbsp; `MySQL`
+
+<br clear="right" />
 
 ## Featured Projects
 
