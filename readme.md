@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090909,50:202020,100:3a3a3a&height=200&section=header&text=RED%20ANGELO%20PANUGALING&fontSize=30&fontColor=f5f5f5&fontAlignY=38&desc=Information%20Technology%20Student%20%7C%20Aspiring%20Full-Stack%20Developer&descAlignY=60&descSize=13" width="100%" alt="Red Angelo Panugaling — Information Technology Student and Aspiring Full-Stack Developer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:18304A,100:50346E&height=220&section=header&text=RED%20ANGELO%20PANUGALING&fontSize=34&fontColor=FFFFFF&fontAlignY=38&desc=BSIT%20STUDENT%20%7C%20ASPIRING%20FULL-STACK%20DEVELOPER&descAlignY=60&descSize=14" width="100%" alt="Red Angelo Panugaling | BSIT Student and Aspiring Full-Stack Developer" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3200&pause=1000&color=C9C9C9&center=true&vCenter=true&width=560&lines=Building+practical+software;Learning+web+development+and+databases;Growing+one+project+at+a+time" alt="Building practical software. Learning web development and databases." />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=900&color=C8B6FF&center=true&vCenter=true&width=550&lines=Curious+by+nature%2C+builder+by+practice;Learning+web+development+one+project+at+a+time;Turning+ideas+into+working+software" alt="Curious by nature, builder by practice. Learning web development one project at a time." />
 
-**BS Information Technology** · Davao del Sur State College · Philippines
+**Red Angelo Panugaling** &nbsp;·&nbsp; Davao del Sur State College &nbsp;·&nbsp; Philippines
 
-[About](#about-me) &nbsp;·&nbsp; [Tech Stack](#tech-stack) &nbsp;·&nbsp; [Projects](#featured-projects) &nbsp;·&nbsp; [Activity](#github-activity) &nbsp;·&nbsp; [Music](#background-music) &nbsp;·&nbsp; [Contact](#contact)
+[About](#about-me) &nbsp;·&nbsp; [Tech Stack](#tech-stack) &nbsp;·&nbsp; [Projects](#featured-projects) &nbsp;·&nbsp; [Stats](#github-activity) &nbsp;·&nbsp; [Music](#background-music) &nbsp;·&nbsp; [Connect](#connect)
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/red-angelo-panugaling)
-[![Facebook](https://img.shields.io/badge/Facebook-333333?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/z.vlmr20)
+[![Facebook](https://img.shields.io/badge/Facebook-34304A?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/z.vlmr20)
 
 </div>
 
@@ -17,11 +17,13 @@
 
 ## About Me
 
-I'm **Red Angelo Panugaling**, an Information Technology student at **Davao del Sur State College** in the Philippines. I'm interested in software development and system engineering, especially building practical applications and strengthening my skills in web development, databases, and programming.
+Hey, I'm Red - a **Bachelor of Science in Information Technology** student at **Davao del Sur State College**. I like learning how software works by making things: small web projects, apps, and systems that solve practical problems.
 
-I'm currently focused on improving my technical foundations and problem-solving through hands-on projects.
+I'm working toward becoming a full-stack developer. Right now, I'm building my foundations in programming, web development, and databases, and getting better with every project.
 
 ## Tech Stack
+
+I keep my toolkit focused and keep learning as I build.
 
 **Programming languages**
 
@@ -29,10 +31,10 @@ I'm currently focused on improving my technical foundations and problem-solving 
 <img src="https://skillicons.dev/icons?i=java,js,php&theme=dark" alt="Java, JavaScript, and PHP" />
 </p>
 
-**Web development**
+**Frontend**
 
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,js,php,nodejs&theme=dark" alt="HTML, CSS, JavaScript, PHP, and Node.js" />
+<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML, CSS, and JavaScript" />
 </p>
 
 **Database and tools**
@@ -41,55 +43,62 @@ I'm currently focused on improving my technical foundations and problem-solving 
 <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode&theme=dark" alt="MySQL, Git, GitHub, and Visual Studio Code" />
 </p>
 
-**Database:** MySQL and SQL
+`SQL` &nbsp; `MySQL`
 
 ## Featured Projects
 
-| Project | Overview | Technologies |
-| --- | --- | --- |
-| [Dinasure](https://github.com/red-angelo-panugaling/dinasure) | Offline dinosaur runner project. | JavaScript, Node.js |
-| [Motorcycle Display System](https://github.com/red-angelo-panugaling/motorcycle_display_system) | Motorcycle display system project. | PHP |
-| [Portfolio](https://github.com/red-angelo-panugaling/portfolio) | Personal portfolio repository. | CSS |
-| [Machine Learning](https://github.com/red-angelo-panugaling/machine-learning) | Machine learning notebooks. This repository is a fork. | Jupyter Notebook |
-
-[Browse all repositories](https://github.com/red-angelo-panugaling?tab=repositories)
+| &nbsp; | &nbsp; |
+|:---|:---|
+| **🦖 [Dinasure](https://github.com/red-angelo-panugaling/dinasure)**<br>An offline dinosaur runner project. | **🤖 [AI Chatbot](https://github.com/red-angelo-panugaling/aichatbot)**<br>A chatbot project from my repository collection. |
+| **🏍️ [Motorcycle Display System](https://github.com/red-angelo-panugaling/motorcycle_display_system)**<br>A motorcycle display system project. | **🧩 [Portfolio](https://github.com/red-angelo-panugaling/portfolio)**<br>My portfolio website repository. |
+| **📓 [ML Project Compilation](https://github.com/red-angelo-panugaling/ml-project-compiltion)**<br>Machine-learning notebooks and projects. | **[Browse all repositories →](https://github.com/red-angelo-panugaling?tab=repositories)**<br>Explore the rest of my work on GitHub. |
 
 ## GitHub Activity
 
 <div align="center">
 
-<a href="https://github.com/red-angelo-panugaling"><img src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=0D1117&ring=8B949E&fire=8B949E&currStreakLabel=C9D1D9&sideLabels=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D" alt="GitHub contribution streak" /></a>
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=red-angelo-panugaling&theme=github_dark" alt="GitHub profile overview and contribution activity" />
 
-[Contribution activity](https://github.com/red-angelo-panugaling) &nbsp;·&nbsp; [Repositories and languages](https://github.com/red-angelo-panugaling?tab=repositories)
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=red-angelo-panugaling&theme=github_dark" alt="Most used languages by commits" />
+<img width="48%" src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=0D1117&ring=9B8AFB&fire=E0A3FF&currStreakLabel=C8B6FF&sideLabels=9AA4B2&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D" alt="GitHub contribution streak" />
+
+<br>
+
+[Profile and contribution calendar](https://github.com/red-angelo-panugaling) &nbsp;·&nbsp; [Repositories and language breakdown](https://github.com/red-angelo-panugaling?tab=repositories)
 
 </div>
 
 ## Currently Exploring
 
-- Full-stack web development fundamentals
-- Database design and management
-- Programming and practical problem-solving
+- Full-stack web development
+- Database design and SQL
+- Practical software and system development
 
 ## Background Music
 
 <div align="center">
 
-**Bahala Na — Kenaniah**
+**Bahala Na - Kenaniah**
 
-[▶ Play Background Music](https://red-angelo-panugaling.github.io/readme/music.html) &nbsp;·&nbsp; [Listen to Bahala Na](backgroundmusic/Kenaniah%20-%20Bahala%20Na%20(Lyrics).mp4)
+[▶ Play Background Music](https://github.com/red-angelo-panugaling/red-angelo-panugaling/blob/main/backgroundmusic/Kenaniah%20-%20Bahala%20Na%20(Lyrics).mp4) &nbsp;·&nbsp; [Listen to Bahala Na](backgroundmusic/Kenaniah%20-%20Bahala%20Na%20(Lyrics).mp4)
 
 </div>
 
-## Contact
+## Connect
 
-Connect with me on [GitHub](https://github.com/red-angelo-panugaling) or [Facebook](https://www.facebook.com/z.vlmr20).
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/red-angelo-panugaling)
+[![Facebook](https://img.shields.io/badge/Facebook-34304A?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/z.vlmr20)
+
+</div>
 
 ---
 
 <div align="center">
 
-*Learning by building. Improving with every project.*
+*Keep learning. Keep building. See you in the next project.*
 
-<img src="https://komarev.com/ghpvc/?username=red-angelo-panugaling&style=flat-square&color=555555&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=red-angelo-panugaling&style=flat-square&color=6C5AA7&label=PROFILE+VISITS" alt="Profile visits" />
 
 </div>
