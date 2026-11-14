@@ -52,14 +52,35 @@ I keep my toolkit focused and keep learning as I build.
 
 <div align="center">
 
-<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=red-angelo-panugaling&theme=github_dark" alt="GitHub profile overview and contribution activity" />
+<table border="3" cellpadding="10" cellspacing="0" width="100%">
+  <tr>
+    <td align="left">
+      <strong>+-- PLAYER PROFILE ----------------------------------------------+</strong><br>
+      <code>USER: RED-ANGELO-PANUGALING &nbsp; / &nbsp; SYSTEM: GITHUB ACTIVITY</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=red-angelo-panugaling&theme=github_dark" alt="Live contribution activity and profile overview displayed on the arcade terminal" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>+-- LANGUAGE STATS ----------------+ &nbsp; +-- CONTRIBUTION RECORD ----------+</strong><br>
+      <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=red-angelo-panugaling&theme=github_dark" alt="Most-used programming languages across public repositories" />
+      <img width="48%" src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=0D1117&ring=9B8AFB&fire=E0A3FF&currStreakLabel=C8B6FF&sideLabels=9AA4B2&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D" alt="Live current and longest contribution streak" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      <code>SYSTEM STATUS: LIVE &nbsp; / &nbsp; PUBLIC REPOSITORIES:</code>
+      <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fred-angelo-panugaling&query=%24.public_repos&label=&color=30363d&style=flat-square" alt="Current public repository count" />
+      &nbsp; <a href="https://github.com/red-angelo-panugaling?tab=repositories">[ OPEN REPOSITORY INDEX ]</a>
+    </td>
+  </tr>
+</table>
 
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=red-angelo-panugaling&theme=github_dark" alt="Most used languages by commits" />
-<img width="48%" src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=0D1117&ring=9B8AFB&fire=E0A3FF&currStreakLabel=C8B6FF&sideLabels=9AA4B2&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D" alt="GitHub contribution streak" />
-
-<br>
-
-[Profile and contribution calendar](https://github.com/red-angelo-panugaling) &nbsp;·&nbsp; [Repositories and language breakdown](https://github.com/red-angelo-panugaling?tab=repositories)
+<sub>Live profile and contribution data | Updated by GitHub and the linked statistics services</sub>
 
 </div>
 
