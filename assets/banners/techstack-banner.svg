@@ -1,8 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="126" viewBox="0 0 1200 126" role="img" aria-labelledby="title desc">
-  <title id="title">Tech Stack section artwork</title><desc id="desc">A retro computer terminal with neon code lines and a compact keyboard.</desc>
-  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090b17"/><stop offset="1" stop-color="#1d1635"/></linearGradient></defs><rect width="1200" height="126" rx="10" fill="url(#bg)"/>
-  <path d="M22 17h1156v92H22zM22 17h24M22 17v24M1178 17h-24M1178 17v24M22 109h24M22 109V85m1156 24h-24m24 0V85" fill="none" stroke="#c084fc" stroke-opacity=".7"/>
-  <text x="55" y="48" fill="#f9a8d4" font-family="monospace" font-size="12" letter-spacing="3">電脳室  /  TOOLS &amp; TECHNOLOGY</text><path d="M56 61h230" stroke="#f472b6" stroke-width="2"/><text x="56" y="96" fill="#f8fafc" font-family="monospace" font-size="24" font-weight="700" letter-spacing="2">TECH STACK</text><text x="250" y="94" fill="#cbd5e1" font-family="monospace" font-size="11" letter-spacing="1">TOOLS AND TECHNOLOGIES I USE TO BUILD THINGS</text>
-  <g transform="translate(760 29)"><rect width="255" height="64" rx="4" fill="#080b16" stroke="#a78bfa" stroke-width="2"/><path d="M10 14h15m8 0h72m-95 14h31m8 0h104m-143 14h17m8 0h78m-95 14h55m9 0h43" stroke="#67e8f9" stroke-width="2"/><path d="M18 14h4m46 14h13m31 14h9m22 14h7" stroke="#f472b6" stroke-width="3"/><path d="M127 64v15m-35 0h70" stroke="#a78bfa" stroke-width="3"/><path d="M290 78h110l22 15H268z" fill="#111426" stroke="#f472b6" stroke-width="2"/><path d="M285 83h105m-96 5h85" stroke="#67e8f9" stroke-width="1.5"/></g>
-  <g fill="#f472b6"><circle cx="1085" cy="47" r="3"/><circle cx="1100" cy="47" r="3"/><circle cx="1115" cy="47" r="3"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Tech Stack — tools and technologies Red uses</title>
+  <desc id="desc">Programming languages Java, JavaScript, and PHP; frontend HTML, CSS, and JavaScript; data and tools SQL, MySQL, Git, GitHub, and Visual Studio Code.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080913"/><stop offset=".55" stop-color="#15102b"/><stop offset="1" stop-color="#211333"/></linearGradient></defs>
+  <rect width="1200" height="470" rx="18" fill="url(#bg)"/><rect x="18" y="18" width="1164" height="434" rx="12" fill="none" stroke="#a855f7" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M18 64h20M18 64V44M1182 64h-20m20 0V44M18 406h20m-20 0v20m1164-20h-20m20 0v20" stroke="#f472b6" stroke-width="3"/>
+  <text x="54" y="62" fill="#f9a8d4" font-family="Courier New,monospace" font-size="13" letter-spacing="3">電脳工房  /  DEVELOPER TOOLKIT</text>
+  <text x="52" y="109" fill="#f8fafc" font-family="Courier New,monospace" font-size="34" font-weight="700" letter-spacing="2">TECH STACK</text>
+  <text x="54" y="137" fill="#cbd5e1" font-family="Courier New,monospace" font-size="14" letter-spacing="1">TOOLS AND TECHNOLOGIES I USE TO BUILD THINGS</text>
+  <text x="54" y="171" fill="#9ca3af" font-family="Arial,sans-serif" font-size="15">I keep my toolkit focused and keep learning as I build.</text>
+  <g>
+    <rect x="48" y="198" width="340" height="210" rx="8" fill="#0c0b19" stroke="#8b5cf6" stroke-opacity=".8"/>
+    <path d="M48 242h340" stroke="#39264e"/>
+    <text x="72" y="228" fill="#f9a8d4" font-family="Courier New,monospace" font-size="14" letter-spacing="2">01 / PROGRAMMING LANGUAGES</text>
+    <g font-family="Courier New,monospace" font-size="16" font-weight="700" text-anchor="middle">
+      <rect x="72" y="270" width="88" height="90" rx="7" fill="#151127" stroke="#c084fc"/><text x="116" y="312" fill="#f8fafc" font-size="24">J</text><text x="116" y="340" fill="#cbd5e1" font-size="13">Java</text>
+      <rect x="174" y="270" width="102" height="90" rx="7" fill="#151127" stroke="#f472b6"/><text x="225" y="312" fill="#f8fafc" font-size="22">JS</text><text x="225" y="340" fill="#cbd5e1" font-size="13">JavaScript</text>
+      <rect x="290" y="270" width="74" height="90" rx="7" fill="#151127" stroke="#67e8f9"/><text x="327" y="312" fill="#f8fafc" font-size="19">PHP</text><text x="327" y="340" fill="#cbd5e1" font-size="13">PHP</text>
+    </g>
+  </g>
+  <g>
+    <rect x="430" y="198" width="340" height="210" rx="8" fill="#0c0b19" stroke="#f472b6" stroke-opacity=".8"/>
+    <path d="M430 242h340" stroke="#39264e"/>
+    <text x="454" y="228" fill="#f9a8d4" font-family="Courier New,monospace" font-size="14" letter-spacing="2">02 / FRONTEND</text>
+    <g font-family="Courier New,monospace" font-size="15" font-weight="700" text-anchor="middle">
+      <rect x="456" y="270" width="88" height="90" rx="7" fill="#151127" stroke="#67e8f9"/><text x="500" y="312" fill="#f8fafc" font-size="20">&lt;/&gt;</text><text x="500" y="340" fill="#cbd5e1" font-size="13">HTML</text>
+      <rect x="556" y="270" width="88" height="90" rx="7" fill="#151127" stroke="#a78bfa"/><text x="600" y="312" fill="#f8fafc" font-size="23">#</text><text x="600" y="340" fill="#cbd5e1" font-size="13">CSS</text>
+      <rect x="656" y="270" width="88" height="90" rx="7" fill="#151127" stroke="#f472b6"/><text x="700" y="312" fill="#f8fafc" font-size="20">JS</text><text x="700" y="340" fill="#cbd5e1" font-size="13">JavaScript</text>
+    </g>
+  </g>
+  <g>
+    <rect x="812" y="198" width="340" height="210" rx="8" fill="#0c0b19" stroke="#67e8f9" stroke-opacity=".8"/>
+    <path d="M812 242h340" stroke="#39264e"/>
+    <text x="836" y="228" fill="#f9a8d4" font-family="Courier New,monospace" font-size="14" letter-spacing="2">03 / DATABASE &amp; TOOLS</text>
+    <g font-family="Courier New,monospace" font-size="14" font-weight="700" text-anchor="middle">
+      <rect x="836" y="263" width="134" height="48" rx="6" fill="#151127" stroke="#c084fc"/><text x="903" y="293" fill="#f8fafc">SQL · MySQL</text>
+      <rect x="984" y="263" width="142" height="48" rx="6" fill="#151127" stroke="#f472b6"/><text x="1055" y="293" fill="#f8fafc">Git · GitHub</text>
+      <rect x="874" y="326" width="214" height="48" rx="6" fill="#151127" stroke="#67e8f9"/><text x="981" y="356" fill="#f8fafc">Visual Studio Code</text>
+    </g>
+  </g>
+  <path d="M48 428h1104" stroke="#44264f"/><text x="54" y="444" fill="#9ca3af" font-family="Courier New,monospace" font-size="11" letter-spacing="1">JAVA  ·  JAVASCRIPT  ·  PHP  ·  HTML  ·  CSS  ·  SQL  ·  MYSQL  ·  GIT  ·  GITHUB  ·  VS CODE</text>
 </svg>

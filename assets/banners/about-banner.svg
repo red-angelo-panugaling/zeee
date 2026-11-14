@@ -1,10 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="126" viewBox="0 0 1200 126" role="img" aria-labelledby="title desc">
-  <title id="title">About Me section artwork</title><desc id="desc">A neon Japanese night skyline in a restrained retro cyberpunk palette.</desc>
-  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090b17"/><stop offset="1" stop-color="#28132f"/></linearGradient><linearGradient id="sun" x2="0" y2="1"><stop stop-color="#f9a8d4"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
-  <rect width="1200" height="126" rx="10" fill="url(#bg)"/><circle cx="940" cy="50" r="35" fill="url(#sun)" opacity=".8"/>
-  <path d="M0 100 100 76l90 21 112-47 95 39 96-30 120 41 118-42 93 35 103-52 110 56 94-36 69 27v37H0z" fill="#111426"/>
-  <g fill="#0b0d19" stroke="#684181" stroke-width="2"><path d="M626 64h68v62h-68zM702 44h57v82h-57zM767 69h77v57h-77zM853 52h55v74h-55zM916 72h67v54h-67zM991 50h61v76h-61zM1060 63h88v63h-88zM1156 46h44v80h-44z"/></g>
-  <g fill="#f472b6"><path d="M642 77h7v10h-7zM673 77h7v10h-7zM718 58h7v10h-7zM743 58h7v10h-7zM783 82h7v10h-7zM824 82h7v10h-7zM870 66h7v10h-7zM934 86h7v10h-7zM971 86h7v10h-7zM1007 63h7v10h-7zM1037 63h7v10h-7zM1080 77h7v10h-7zM1122 77h7v10h-7zM1170 64h7v10h-7z"/></g>
-  <path d="M22 17h1156v92H22zM22 17h24M22 17v24M1178 17h-24M1178 17v24M22 109h24M22 109V85m1156 24h-24m24 0V85" fill="none" stroke="#c084fc" stroke-opacity=".7"/>
-  <text x="55" y="48" fill="#f9a8d4" font-family="monospace" font-size="12" letter-spacing="3">夜の街  /  PERSONAL PROFILE</text><path d="M56 61h230" stroke="#f472b6" stroke-width="2"/><text x="56" y="96" fill="#f8fafc" font-family="monospace" font-size="24" font-weight="700" letter-spacing="2">ABOUT ME</text><text x="248" y="94" fill="#cbd5e1" font-family="monospace" font-size="11" letter-spacing="1">A STUDENT BUILDING ONE PROJECT AT A TIME</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">About Me — Red Angelo Panugaling</title>
+  <desc id="desc">Red is a Bachelor of Science in Information Technology student at Davao del Sur State College in the Philippines, building foundations for full-stack development through practical projects.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080913"/><stop offset=".58" stop-color="#171027"/><stop offset="1" stop-color="#301331"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f9a8d4"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <rect width="1200" height="500" rx="18" fill="url(#sky)"/>
+  <rect x="18" y="18" width="1164" height="464" rx="12" fill="none" stroke="#a855f7" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M18 64h20M18 64V44M1182 64h-20m20 0V44M18 436h20m-20 0v20m1164-20h-20m20 0v20" stroke="#f472b6" stroke-width="3"/>
+  <circle cx="1001" cy="193" r="79" fill="url(#sun)" opacity=".8"/>
+  <path d="M922 193h158m-143 24h128m-111 23h94" stroke="#21102a" stroke-width="8" opacity=".7"/>
+  <path d="M770 312 875 234l56 37 78-84 83 88 63-32 45 28v139H770z" fill="#101324"/>
+  <g fill="#0b0d19" stroke="#5b3970" stroke-width="2">
+    <path d="M830 305h62v177h-62zM902 328h53v154h-53zM963 298h75v184h-75zM1047 322h56v160h-56zM1112 286h70v196h-70z"/>
+    <path d="M850 305v-20h15v20m57 23v-17h14v17m65-30v-19h16v19m68 24v-19h15v19m21-36v-21h17v21"/>
+  </g>
+  <g fill="#f472b6"><path d="M842 328h8v12h-8zM870 328h8v12h-8zM915 350h8v12h-8zM941 350h8v12h-8zM976 320h8v12h-8zM1014 320h8v12h-8zM1060 344h8v12h-8zM1084 344h8v12h-8zM1125 310h8v12h-8zM1157 310h8v12h-8z"/></g>
+  <g fill="#67e8f9"><path d="M842 358h8v12h-8zM915 380h8v12h-8zM984 350h8v12h-8zM1030 350h8v12h-8zM1060 374h8v12h-8zM1125 340h8v12h-8zM1160 340h8v12h-8z"/></g>
+  <path d="M48 40h756v420H48z" fill="#090b17" fill-opacity=".72" stroke="#71418f" stroke-opacity=".6"/>
+  <text x="78" y="78" fill="#f9a8d4" font-family="Courier New,monospace" font-size="13" letter-spacing="3">夜の街  /  PERSONAL PROFILE</text>
+  <text x="76" y="124" fill="#f8fafc" font-family="Courier New,monospace" font-size="34" font-weight="700" letter-spacing="2">ABOUT ME</text>
+  <text x="78" y="151" fill="#cbd5e1" font-family="Courier New,monospace" font-size="14" letter-spacing="1">A STUDENT BUILDING ONE PROJECT AT A TIME</text>
+  <path d="M78 168h654" stroke="#f472b6" stroke-width="2"/>
+  <text x="78" y="202" fill="#67e8f9" font-family="Courier New,monospace" font-size="12" letter-spacing="1">BS INFORMATION TECHNOLOGY  ·  DAVAO DEL SUR STATE COLLEGE  ·  PHILIPPINES</text>
+  <text x="78" y="244" fill="#f9a8d4" font-family="Courier New,monospace" font-size="13" letter-spacing="1">01 / HOW I LEARN</text>
+  <text x="78" y="271" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="16">
+    <tspan x="78" dy="0">Hey, I'm Red — a Bachelor of Science in Information Technology student at Davao del Sur</tspan>
+    <tspan x="78" dy="23">State College. I like learning how software works by making things: small web projects,</tspan>
+    <tspan x="78" dy="23">apps, and systems that solve practical problems.</tspan>
+  </text>
+  <text x="78" y="355" fill="#f9a8d4" font-family="Courier New,monospace" font-size="13" letter-spacing="1">02 / WHERE I'M HEADED</text>
+  <text x="78" y="382" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="16">
+    <tspan x="78" dy="0">I'm working toward becoming a full-stack developer. Right now, I'm building my foundations</tspan>
+    <tspan x="78" dy="23">in programming, web development, and databases, and getting better with every project.</tspan>
+  </text>
+  <path d="M78 435h92" stroke="#67e8f9" stroke-width="2"/><text x="186" y="440" fill="#9ca3af" font-family="Courier New,monospace" font-size="12">BUILD · LEARN · REPEAT</text>
 </svg>

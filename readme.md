@@ -15,38 +15,20 @@
 
 ---
 
-<h2 id="about-me"><img src="assets/banners/about-banner.svg" width="100%" alt="About Me — Japanese neon city banner. A student building one project at a time." /></h2>
+<h2 id="about-me"><img src="assets/banners/about-banner.svg" width="100%" alt="About Me panel with Red's IT studies, school, location, practical learning approach, and full-stack developer goal." /></h2>
 
-Hey, I'm Red - a **Bachelor of Science in Information Technology** student at **Davao del Sur State College**. I like learning how software works by making things: small web projects, apps, and systems that solve practical problems.
+<h2 id="tech-stack"><img src="assets/banners/techstack-banner.svg" width="100%" alt="Tech Stack panel listing Java, JavaScript, PHP, HTML, CSS, SQL, MySQL, Git, GitHub, and Visual Studio Code." /></h2>
 
-I'm working toward becoming a full-stack developer. Right now, I'm building my foundations in programming, web development, and databases, and getting better with every project.
+<div align="center"><img src="gif/tech%20stack%20empty%20side.gif" width="280" alt="Animated illustration of a developer working at a multi-monitor desk" /></div>
 
-<h2 id="tech-stack"><img src="assets/banners/techstack-banner.svg" width="100%" alt="Tech Stack — retro computer workstation. Tools and technologies I use to build things." /></h2>
+<h2 id="featured-projects"><img src="assets/banners/projects-banner.svg" width="100%" alt="Featured Projects panel with names and descriptions for Dinasure, AI Chatbot, Motorcycle Display System, Portfolio, and ML Project Compilation." /></h2>
 
-I keep my toolkit focused and keep learning as I build.
+<div align="center">
 
-<img align="right" src="gif/tech%20stack%20empty%20side.gif" width="280" alt="Animated illustration of a developer working at a multi-monitor desk" />
+[Dinasure](https://github.com/red-angelo-panugaling/dinasure) &nbsp;·&nbsp; [AI Chatbot](https://github.com/red-angelo-panugaling/aichatbot) &nbsp;·&nbsp; [Motorcycle Display System](https://github.com/red-angelo-panugaling/motorcycle_display_system)<br>
+[Portfolio](https://github.com/red-angelo-panugaling/portfolio) &nbsp;·&nbsp; [ML Project Compilation](https://github.com/red-angelo-panugaling/ml-project-compiltion) &nbsp;·&nbsp; [Browse all repositories](https://github.com/red-angelo-panugaling?tab=repositories)
 
-<p><strong>Programming languages</strong><br>
-<img src="https://skillicons.dev/icons?i=java,js,php&theme=dark" alt="Java, JavaScript, and PHP" /></p>
-
-<p><strong>Frontend</strong><br>
-<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML, CSS, and JavaScript" /></p>
-
-<p><strong>Database and tools</strong><br>
-<img src="https://skillicons.dev/icons?i=mysql,git,github,vscode&theme=dark" alt="MySQL, Git, GitHub, and Visual Studio Code" /></p>
-
-`SQL` &nbsp; `MySQL`
-
-<br clear="right" />
-
-<h2 id="featured-projects"><img src="assets/banners/projects-banner.svg" width="100%" alt="Featured Projects — neon Japanese technology. Some things I've built and worked on." /></h2>
-
-| &nbsp; | &nbsp; |
-|:---|:---|
-| **🦖 [Dinasure](https://github.com/red-angelo-panugaling/dinasure)**<br>An offline dinosaur runner project. | **🤖 [AI Chatbot](https://github.com/red-angelo-panugaling/aichatbot)**<br>A chatbot project from my repository collection. |
-| **🏍️ [Motorcycle Display System](https://github.com/red-angelo-panugaling/motorcycle_display_system)**<br>A motorcycle display system project. | **🧩 [Portfolio](https://github.com/red-angelo-panugaling/portfolio)**<br>My portfolio website repository. |
-| **📓 [ML Project Compilation](https://github.com/red-angelo-panugaling/ml-project-compiltion)**<br>Machine-learning notebooks and projects. | **[Browse all repositories →](https://github.com/red-angelo-panugaling?tab=repositories)**<br>Explore the rest of my work on GitHub. |
+</div>
 
 <h2 id="github-activity"><img src="assets/banners/activity-banner.svg" width="100%" alt="Dynamic GitHub activity panel: contribution graph, 365-day contribution total, public repositories, top languages, current streak, and longest streak." /></h2>
 
@@ -56,13 +38,9 @@ I keep my toolkit focused and keep learning as I build.
 
 </div>
 
-<h2 id="currently-exploring"><img src="assets/banners/exploring-banner.svg" width="100%" alt="Currently Exploring — Japanese night scenery. Always learning, always building." /></h2>
+<h2 id="currently-exploring"><img src="assets/banners/exploring-banner.svg" width="100%" alt="Currently Exploring panel listing full-stack web development, database design and SQL, and practical software and system development." /></h2>
 
-- Full-stack web development
-- Database design and SQL
-- Practical software and system development
-
-<h2 id="connect"><img src="assets/banners/connect-banner.svg" width="100%" alt="Connect With Me — neon Japanese city. Let's connect and build something together." /></h2>
+<h2 id="connect"><img src="assets/banners/connect-banner.svg" width="100%" alt="Connect With Me panel showing GitHub red-angelo-panugaling and Facebook z.vlmr20." /></h2>
 
 <div align="center">
 

@@ -1,7 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="126" viewBox="0 0 1200 126" role="img" aria-labelledby="title desc">
-  <title id="title">Connect With Me section artwork</title><desc id="desc">A quiet neon city at night with glowing windows and simple communication signal lines.</desc>
-  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090b17"/><stop offset="1" stop-color="#201533"/></linearGradient></defs><rect width="1200" height="126" rx="10" fill="url(#bg)"/>
-  <path d="M22 17h1156v92H22zM22 17h24M22 17v24M1178 17h-24M1178 17v24M22 109h24M22 109V85m1156 24h-24m24 0V85" fill="none" stroke="#c084fc" stroke-opacity=".7"/>
-  <text x="55" y="48" fill="#f9a8d4" font-family="monospace" font-size="12" letter-spacing="3">つながり  /  FIND ME ONLINE</text><path d="M56 61h230" stroke="#f472b6" stroke-width="2"/><text x="56" y="96" fill="#f8fafc" font-family="monospace" font-size="24" font-weight="700" letter-spacing="2">CONNECT WITH ME</text><text x="350" y="94" fill="#cbd5e1" font-family="monospace" font-size="11" letter-spacing="1">LET'S CONNECT AND BUILD SOMETHING TOGETHER</text>
-  <g fill="none" stroke-width="2"><path d="M850 78a48 48 0 0 1 96 0M865 78a33 33 0 0 1 66 0M880 78a18 18 0 0 1 36 0" stroke="#67e8f9"/><circle cx="898" cy="79" r="4" fill="#f472b6" stroke="#f472b6"/><path d="M994 38h84v58h-84zM1085 54h61v42h-61zM1154 44h24v52h-24z" stroke="#8b5cf6"/><path d="M1005 51h62m-62 13h46m-46 13h54m-12 19v10m-36-10v10m-10 0h58" stroke="#f472b6"/><path d="M1095 67h8m10 0h8m10 0h8m-44 13h8m10 0h8m10 0h8" stroke="#67e8f9"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Connect With Me</title>
+  <desc id="desc">Connect with Red Angelo Panugaling on GitHub at red-angelo-panugaling or Facebook at z.vlmr20. Clickable links are below this panel.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080913"/><stop offset=".55" stop-color="#171027"/><stop offset="1" stop-color="#2b1230"/></linearGradient><linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f9a8d4"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+  <rect width="1200" height="330" rx="18" fill="url(#bg)"/><rect x="18" y="18" width="1164" height="294" rx="12" fill="none" stroke="#a855f7" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M18 64h20M18 64V44M1182 64h-20m20 0V44M18 266h20m-20 0v20m1164-20h-20m20 0v20" stroke="#f472b6" stroke-width="3"/>
+  <circle cx="1008" cy="126" r="54" fill="url(#sun)" opacity=".75"/>
+  <path d="M750 215 833 156l66 39 89-79 77 86 62-36 73 48v86H750z" fill="#101324"/>
+  <g fill="#0b0d19" stroke="#503666" stroke-width="2"><path d="M806 206h60v106h-60zM875 224h55v88h-55zM940 196h72v116h-72zM1022 215h63v97h-63zM1094 187h88v125h-88z"/></g>
+  <g fill="#67e8f9"><path d="M821 223h8v12h-8zM848 223h8v12h-8zM889 240h8v12h-8zM915 240h8v12h-8zM955 210h8v12h-8zM984 210h8v12h-8zM1038 229h8v12h-8zM1065 229h8v12h-8zM1111 202h8v12h-8zM1151 202h8v12h-8z"/></g>
+  <text x="54" y="62" fill="#f9a8d4" font-family="Courier New,monospace" font-size="13" letter-spacing="3">つながり  /  OPEN CHANNEL</text>
+  <text x="52" y="109" fill="#f8fafc" font-family="Courier New,monospace" font-size="34" font-weight="700" letter-spacing="2">CONNECT WITH ME</text>
+  <text x="54" y="137" fill="#cbd5e1" font-family="Courier New,monospace" font-size="14" letter-spacing="1">LET'S CONNECT AND BUILD SOMETHING TOGETHER</text>
+  <path d="M54 160h650" stroke="#f472b6" stroke-width="2"/>
+  <g>
+    <rect x="58" y="184" width="290" height="88" rx="8" fill="#0c0b19" stroke="#c084fc"/>
+    <circle cx="96" cy="228" r="19" fill="#171027" stroke="#67e8f9" stroke-width="2"/><path d="M86 230c1-13 19-13 20 0m-17 6h14" fill="none" stroke="#f8fafc" stroke-width="2"/>
+    <text x="130" y="219" fill="#f9a8d4" font-family="Courier New,monospace" font-size="12" letter-spacing="2">GITHUB</text><text x="130" y="244" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17">red-angelo-panugaling</text>
+    <rect x="372" y="184" width="290" height="88" rx="8" fill="#0c0b19" stroke="#67e8f9"/>
+    <circle cx="410" cy="228" r="19" fill="#171027" stroke="#f472b6" stroke-width="2"/><path d="M401 222h18v13h-18zm4 13v5m10-5v5m-12 0h14" fill="none" stroke="#f8fafc" stroke-width="2"/>
+    <text x="444" y="219" fill="#f9a8d4" font-family="Courier New,monospace" font-size="12" letter-spacing="2">FACEBOOK</text><text x="444" y="244" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17">z.vlmr20</text>
+  </g>
+  <text x="54" y="294" fill="#9ca3af" font-family="Courier New,monospace" font-size="11" letter-spacing="1">OPEN THE LINKS BELOW TO VISIT EACH PROFILE</text>
 </svg>
