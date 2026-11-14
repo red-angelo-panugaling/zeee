@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      - readme.md
+      - README.md
       - .github/scripts/generate_activity_svg.py
       - .github/workflows/update-activity-panel.yml
       # The generated SVG is intentionally excluded, so its update cannot retrigger this workflow.
