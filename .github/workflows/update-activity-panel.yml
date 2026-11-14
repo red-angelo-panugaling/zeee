@@ -1,0 +1,96 @@
+name: Update GitHub activity panel
+
+on:
+  # First refresh after the README/workflow is pushed; action-created commits use GITHUB_TOKEN
+  # and do not start another workflow run.
+  push:
+    branches:
+      - main
+    paths:
+      - readme.md
+      - .github/scripts/generate_activity_svg.py
+      - .github/workflows/update-activity-panel.yml
+      # The generated SVG is intentionally excluded, so its update cannot retrigger this workflow.
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity-panel-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-panel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out the selected branch
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Generate and validate the activity SVG
+        run: python .github/scripts/generate_activity_svg.py
+        env:
+          # Optional classic PAT with read:user includes private contribution counts.
+          # Without it, GITHUB_TOKEN is used for publicly visible activity.
+          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || github.token }}
+
+      - name: Commit only the regenerated SVG
+        uses: actions/github-script@v9
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            const fs = require('fs');
+            const path = 'assets/banners/activity-banner.svg';
+            const branch = context.ref.replace(/^refs\/heads\//, '');
+
+            if (!context.ref.startsWith('refs/heads/')) {
+              throw new Error(`Expected a branch ref, received ${context.ref}`);
+            }
+
+            const generated = fs.readFileSync(path, 'utf8');
+            if (!generated.trimStart().startsWith('<svg')) {
+              throw new Error('Generated activity panel is not an SVG document.');
+            }
+
+            let sha;
+            let current = '';
+            try {
+              const response = await github.rest.repos.getContent({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                path,
+                ref: branch,
+              });
+              if (Array.isArray(response.data) || response.data.type !== 'file') {
+                throw new Error(`${path} is not a file.`);
+              }
+              sha = response.data.sha;
+              current = Buffer.from(response.data.content, 'base64').toString('utf8');
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
+
+            if (current === generated) {
+              core.info('The activity SVG is already current; no commit is needed.');
+            } else {
+              const input = {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                path,
+                branch,
+                message: 'chore(readme): refresh GitHub activity panel',
+                content: Buffer.from(generated, 'utf8').toString('base64'),
+              };
+              if (sha) input.sha = sha;
+              await github.rest.repos.createOrUpdateFileContents(input);
+              core.info(`Committed only ${path}.`);
+            }

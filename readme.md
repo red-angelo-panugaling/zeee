@@ -48,23 +48,11 @@ I keep my toolkit focused and keep learning as I build.
 | **🏍️ [Motorcycle Display System](https://github.com/red-angelo-panugaling/motorcycle_display_system)**<br>A motorcycle display system project. | **🧩 [Portfolio](https://github.com/red-angelo-panugaling/portfolio)**<br>My portfolio website repository. |
 | **📓 [ML Project Compilation](https://github.com/red-angelo-panugaling/ml-project-compiltion)**<br>Machine-learning notebooks and projects. | **[Browse all repositories →](https://github.com/red-angelo-panugaling?tab=repositories)**<br>Explore the rest of my work on GitHub. |
 
-<h2 id="github-activity"><img src="assets/banners/activity-banner.svg" width="100%" alt="GitHub Activity — futuristic neon terminal. My coding journey, contributions and progress." /></h2>
+<h2 id="github-activity"><img src="assets/banners/activity-banner.svg" width="100%" alt="Dynamic GitHub activity panel: contribution graph, 365-day contribution total, public repositories, top languages, current streak, and longest streak." /></h2>
 
 <div align="center">
 
-<sub>CONTRIBUTIONS · PROFILE OVERVIEW</sub><br>
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=red-angelo-panugaling&theme=github_dark" alt="Live GitHub contribution graph, total contributions, and profile overview" />
-
-<br>
-
-<sub>LANGUAGES · CONTRIBUTION STREAK</sub><br>
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=red-angelo-panugaling&theme=github_dark" alt="Live breakdown of programming languages in public repositories" />
-<img width="48%" src="https://streak-stats.demolab.com?user=red-angelo-panugaling&hide_border=true&background=0D1117&ring=C084FC&fire=F472B6&currStreakLabel=C4B5FD&sideLabels=A1A1AA&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF&stroke=3F3F46" alt="Live current and longest contribution streak" />
-
-<br><br>
-
-<sub>PUBLIC REPOSITORIES</sub><br>
-<a href="https://github.com/red-angelo-panugaling?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fred-angelo-panugaling&query=%24.public_repos&label=PUBLIC%20REPOSITORIES&color=6d4b8e&style=flat-square" alt="Current public repository count; click to browse repositories" /></a>
+<a href="https://github.com/red-angelo-panugaling">View GitHub profile</a> &nbsp;·&nbsp; <a href="https://github.com/red-angelo-panugaling?tab=repositories">Browse repositories</a>
 
 </div>
 
