@@ -15,17 +15,13 @@
 
 ---
 
-## About Me
-
-<img src="assets/section-about.svg" width="100%" alt="Japanese neon city at night, introducing the About Me section" />
+<h2 id="about-me"><img src="assets/banners/about-banner.svg" width="100%" alt="About Me — Japanese neon city banner" /></h2>
 
 Hey, I'm Red - a **Bachelor of Science in Information Technology** student at **Davao del Sur State College**. I like learning how software works by making things: small web projects, apps, and systems that solve practical problems.
 
 I'm working toward becoming a full-stack developer. Right now, I'm building my foundations in programming, web development, and databases, and getting better with every project.
 
-## Tech Stack
-
-<img src="assets/section-tech-stack.svg" width="100%" alt="Retro computer terminal and code, introducing the Tech Stack section" />
+<h2 id="tech-stack"><img src="assets/banners/techstack-banner.svg" width="100%" alt="Tech Stack — retro computer workstation banner" /></h2>
 
 I keep my toolkit focused and keep learning as I build.
 
@@ -44,9 +40,7 @@ I keep my toolkit focused and keep learning as I build.
 
 <br clear="right" />
 
-## Featured Projects
-
-<img src="assets/section-projects.svg" width="100%" alt="Neon developer workstation, introducing Featured Projects" />
+<h2 id="featured-projects"><img src="assets/banners/projects-banner.svg" width="100%" alt="Featured Projects — neon Japanese technology banner" /></h2>
 
 | &nbsp; | &nbsp; |
 |:---|:---|
@@ -54,9 +48,7 @@ I keep my toolkit focused and keep learning as I build.
 | **🏍️ [Motorcycle Display System](https://github.com/red-angelo-panugaling/motorcycle_display_system)**<br>A motorcycle display system project. | **🧩 [Portfolio](https://github.com/red-angelo-panugaling/portfolio)**<br>My portfolio website repository. |
 | **📓 [ML Project Compilation](https://github.com/red-angelo-panugaling/ml-project-compiltion)**<br>Machine-learning notebooks and projects. | **[Browse all repositories →](https://github.com/red-angelo-panugaling?tab=repositories)**<br>Explore the rest of my work on GitHub. |
 
-## GitHub Activity
-
-<img src="assets/section-activity.svg" width="100%" alt="Neon activity terminal with an abstract contribution grid, introducing GitHub Activity" />
+<h2 id="github-activity"><img src="assets/banners/activity-banner.svg" width="100%" alt="GitHub Activity — futuristic neon terminal banner" /></h2>
 
 <div align="center">
 
@@ -76,15 +68,13 @@ I keep my toolkit focused and keep learning as I build.
 
 </div>
 
-## Currently Exploring
+<h2 id="currently-exploring"><img src="assets/banners/exploring-banner.svg" width="100%" alt="Currently Exploring — Japanese night scenery banner" /></h2>
 
 - Full-stack web development
 - Database design and SQL
 - Practical software and system development
 
-## Connect
-
-<img src="assets/section-connect.svg" width="100%" alt="Neon Japanese city at night with communication signals, introducing Connect With Me" />
+<h2 id="connect"><img src="assets/banners/connect-banner.svg" width="100%" alt="Connect With Me — neon Japanese city banner" /></h2>
 
 <div align="center">
 
