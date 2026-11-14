@@ -25,25 +25,22 @@ I'm working toward becoming a full-stack developer. Right now, I'm building my f
 
 I keep my toolkit focused and keep learning as I build.
 
-**Programming languages**
-
-<p>
-<img src="https://skillicons.dev/icons?i=java,js,php&theme=dark" alt="Java, JavaScript, and PHP" />
-</p>
-
-**Frontend**
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML, CSS, and JavaScript" />
-</p>
-
-**Database and tools**
-
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,git,github,vscode&theme=dark" alt="MySQL, Git, GitHub, and Visual Studio Code" />
-</p>
-
-`SQL` &nbsp; `MySQL`
+<table width="100%">
+  <tr>
+    <td width="62%" valign="middle">
+      <p><strong>Programming languages</strong><br>
+      <img src="https://skillicons.dev/icons?i=java,js,php&theme=dark" alt="Java, JavaScript, and PHP" /></p>
+      <p><strong>Frontend</strong><br>
+      <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML, CSS, and JavaScript" /></p>
+      <p><strong>Database and tools</strong><br>
+      <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode&theme=dark" alt="MySQL, Git, GitHub, and Visual Studio Code" /></p>
+      <code>SQL</code> &nbsp; <code>MySQL</code>
+    </td>
+    <td width="38%" align="center" valign="middle">
+      <img src="gif/tech%20stack%20empty%20side.gif" width="280" alt="Animated illustration of a developer working at a multi-monitor desk" />
+    </td>
+  </tr>
+</table>
 
 ## Featured Projects
 
